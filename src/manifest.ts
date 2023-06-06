@@ -15,13 +15,16 @@ const manifest: Manifest.WebExtensionManifest = {
   },
   action: {
     default_popup: "src/pages/popup/index.html",
-    default_icon: "icon-34.png",
+    default_icon: "icon.png",
   },
+  /*
+  // New Tab Page
   chrome_url_overrides: {
     newtab: "src/pages/newtab/index.html",
   },
+  */
   icons: {
-    "128": "icon-128.png",
+    "128": "icon.png",
   },
   permissions: ["activeTab"],
   content_scripts: [
